@@ -3,7 +3,8 @@ import ComponentF from './ComponentF'
 import UserContext from './UserContext'
 
 class ComponentE extends Component {
-    static contextType=UserContext
+  //need ro hide this for 1.
+  static contextType=UserContext
   render() {
     return (
       <div>

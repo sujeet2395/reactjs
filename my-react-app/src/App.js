@@ -29,14 +29,58 @@ import HoverCounterTwo from './components/HoverCounterTwo';
 import User from './components/User';
 import CounterTwo from './components/CounterTwo';
 import ComponentC from './components/ComponentC';
-import { UserProvider } from './components/UserContext'
+import UserContext, { ChannelContext } from './components/UserContext'
 import PostsList from './components/PostsList';
 import PostForm from './components/PostForm';
+import ClassCounter from './advanceconcepts/ClassCounter';
+import HookCounter from './advanceconcepts/HookCounter';
+import HookCounterTwo from './advanceconcepts/HookCounterTwo';
+import ClassCounterTwo from './advanceconcepts/ClassCounterTwo';
+import HookCounterThree from './advanceconcepts/HookCounterThree';
+import HookCounterFour from './advanceconcepts/HookCounterFour';
+import ClassCounterOne from './advanceconcepts/ClassCounterOne';
+import HookCounterOne from './advanceconcepts/HookCounterOne';
+import ClassMouse from './advanceconcepts/ClassMouse';
+import HookMouse from './advanceconcepts/HookMouse';
+import MouseContainer from './advanceconcepts/MouseContainer';
+import IntervalClassCounter from './advanceconcepts/IntervalClassCounter';
+import IntervalHookCounter from './advanceconcepts/IntervalHookCounter';
+import DataFetching from './advanceconcepts/DataFetching';
+import DataFetchingGetOne from './advanceconcepts/DataFetchingGetOne';
+import DataFetchingByButton from './advanceconcepts/DataFetchingByButton';
+import {ChannelContextTwo, UserContextTwo } from './advanceconcepts/UserContextTwo';
+import ComponentCTwo from './advanceconcepts/ComponentCTwo';
 
 function App() {
   return (
     <div className="App">
-      <PostForm/>
+      <UserContextTwo.Provider value={'Sujit'}/>
+        <ChannelContextTwo.Provider value={'Codevolution'}>
+          <ComponentCTwo />
+        </ChannelContextTwo.Provider>
+      <UserContextTwo.Provider />
+      {/* <UserContext.Provider value='Sujit'/>
+        <ChannelContext.Provider value='Codevolution'>
+          <ComponentC />
+        </ChannelContext.Provider>
+      <UserContext.Provider /> */}
+      {/* <DataFetchingByButton/> */}
+      {/* <DataFetchingGetOne /> */}
+      {/* <DataFetching/> */}
+      {/* <IntervalClassCounter/>
+      <IntervalHookCounter/> */}
+      {/* <MouseContainer/> */}
+      {/* <HookMouse/> */}
+      {/* <ClassMouse/> */}
+      {/* <HookCounterOne/> */}
+      {/* <ClassCounterOne/> */}
+      {/* <HookCounterFour/> */}
+      {/* <HookCounterThree/> */}
+      {/* <ClassCounterTwo/> */}
+      {/* <HookCounterTwo/> */}
+      {/* <HookCounter/> */}
+      {/* <ClassCounter/> */}
+      {/* <PostForm/> */}
       {/* <PostsList/> */}
       {/* <UserProvider value={'Sujit'}/>
         <ComponentC />
