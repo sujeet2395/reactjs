@@ -1,0 +1,53 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "jhon",
+      "email": "jhon@gmail.com",
+      "phone": "9876543211",
+      "active": true
+    },
+    {
+      "name": "mohan jha",
+      "email": "mohanjha@gmail.com",
+      "phone": "9876543219",
+      "active": true,
+      "id": 2
+    },
+    {
+      "name": "sujit",
+      "email": "sujit@gmail.com",
+      "phone": "9876543211",
+      "active": true,
+      "id": 3
+    },
+    {
+      "name": "sujits",
+      "email": "sujit@gmail.coms",
+      "phone": "9876543214",
+      "active": true,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "sjs",
+      "email": "sjs@gm.com",
+      "phone": "9876543213",
+      "active": false
+    },
+    {
+      "name": "s",
+      "email": "s@gm.com",
+      "phone": "9876543214",
+      "active": true,
+      "id": 6
+    },
+    {
+      "name": "sf",
+      "email": "sf@gm.com",
+      "phone": "9876543213",
+      "active": true,
+      "id": 7
+    }
+  ]
+}
